@@ -37,7 +37,7 @@ function addPlayers() {
   let deleteButtonB = document.createElement("button");
   deleteButtonB.innerText = "X";
 
-  if (teamAList.childNodes.length > 4 && teamBList.childNodes.length > 4) {
+  if (teamAList.childNodes.length === 5 && teamBList.childNodes.length === 5) {
     return null;
   }
 
